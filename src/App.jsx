@@ -1,9 +1,9 @@
 import React from 'react'
-import { Counter } from './components/Counter'
+import { PokemonApp } from './components/PokemonApp'
 
 
 export const App = () => {
   return (
-    <Counter/>
+    <PokemonApp/>
   )
 }
