@@ -1,9 +1,9 @@
 import React from 'react'
-import { PokemonApp } from './components/PokemonApp'
+import { TodoApp } from './components/TodoApp'
 
 
 export const App = () => {
   return (
-    <PokemonApp/>
+    <TodoApp/>
   )
 }
