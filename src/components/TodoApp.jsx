@@ -25,11 +25,6 @@ const prevTodo = (count) =>{
     <hr />
     <h4>isLoading: {isLoading ? 'True':'False'} </h4>
     <pre> {JSON.stringify(todo)} </pre>
-
-    {/* <ol>
-      { !isLoading && todos.map(({id, title, completed})=> <li key={id} > <strong>{completed ? 'DONE':'PENDING'}</strong> {title} </li> )}
-    </ol> */}
-
     <button
     onClick={()=>{prevTodo(count)}}
     >
